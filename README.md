@@ -85,10 +85,23 @@ The following is an image of the final DataFrame:
 
 ### Create the Crowdfunding Database
 1. Inspect the four `.csv` files, and then sketch an ERD of the tables.
+
+![crowdfunding_db ERD](PostgreSQL_files/crowdfunding_db_ERD.png)
+
 2. Use the information from the ERD to create a table schema for each `.csv` file.
+    - A PDF containing the table schema is included in the file named `crowdfunding_db_schema.pdf`.
+    
 3. Save the database schema as a Postgres file named `crowdfunding_db_schema.sql`.
+
 4. Create a new Postgres database, named `crowdfunding_db`.
+    - The create script is included in a file named `create_crowdfunding_db.sql`.
+
 5. Using the database schema, create the tables in the correct order to handle the foreign keys.
+
 6. Verify the table creation by running a `SELECT` statement for each table.
+    - Verification queries are included in the file named `full-table_verification_queries.sql`.
+
 7. Import each `.csv` file into its corresponding SQL table.
+
 8. Verify that each table has the correct data by running a `SELECT` statement for each.
+    - Verification queries are included in the file named `full-table_verification_queries.sql`.
