@@ -15,10 +15,9 @@ This ETL project is divided into the following subsections:
     - A `category_id` column that has entries going sequentially from `cat1` to `cat_n_`, where n is the number of unique categories
 
     - A "category" column that contains only the category titles
+    - The following image shows the category DataFrame:
 
-The following image shows this category DataFrame:
-
-category DataFrame
+    ![category DataFrame](images/category_DataFrame.png)
 
 Export the category DataFrame as category.csv and save it to your GitHub repository.
 
