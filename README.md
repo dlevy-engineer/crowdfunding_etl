@@ -10,7 +10,7 @@ This ETL project is divided into the following subsections:
 - Create the Crowdfunding Database
 
 ### Create the Category and Subcategory DataFrames
-1. Extract and transform the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
+1. Extract and transform the `crowdfunding.xlsx` Excel data to create a category DataFrame that has the following columns:
 
     - A `category_id` column that has entries going sequentially from `cat1` to `cat_n_`, where n is the number of unique categories
 
@@ -19,26 +19,26 @@ This ETL project is divided into the following subsections:
 
     ![category DataFrame](images/category_DataFrame.png)
 
-Export the category DataFrame as category.csv and save it to your GitHub repository.
+2. Export the category DataFrame as `category.csv` and save it to your GitHub repository.
 
-Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
+3. Extract and transform the `crowdfunding.xlsx` Excel data to create a subcategory DataFrame that has the following columns:
 
-A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
+    - A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
 
-A "subcategory" column that contains only the subcategory titles
+    - A "subcategory" column that contains only the subcategory titles
 
-The following image shows this subcategory DataFrame:
+    - The following image shows this subcategory DataFrame:
 
-subcategory DataFrame
+    ![subcategory DataFrame](images/subcategory_DataFrame.png)
 
-Export the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
+4. Export the subcategory DataFrame as `subcategory.csv`.
 
-Create the Campaign DataFrame
-Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame has the following columns:
+### Create the Campaign DataFrame
+Extract and transform the `crowdfunding.xlsx` Excel data to create a campaign DataFrame has the following columns:
 
-The "cf_id" column
+    - The "cf_id" column
 
-The "contact_id" column
+    - The "contact_id" column
 
 The "company_name" column
 
