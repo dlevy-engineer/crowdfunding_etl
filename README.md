@@ -1,5 +1,5 @@
 # crowdfunding_etl
-ETL project for UC Berkeley data science bootcamp.
+A sample ETL project to demonstrate mastery of a common data engineering pipeline from raw data files delivered by a client to a functioning PostgreSQL database.
 
 ## Procedure
 This ETL project is divided into the following subsections:
