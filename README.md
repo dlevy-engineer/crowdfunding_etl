@@ -1,5 +1,5 @@
 # crowdfunding_etl
-A sample ETL project to demonstrate mastery of a common data engineering pipeline from raw data files delivered by a client to a functioning PostgreSQL database.
+A sample ETL project to demonstrate mastery of a common data engineering pipeline from raw data files delivered by a client to a functioning PostgreSQL database. In this case, the data has been delivered by a burgeoning crowdfunding platform with no backend architecture in place.
 
 ## Procedure
 This ETL project is divided into the following subsections:
